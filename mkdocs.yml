@@ -1,0 +1,57 @@
+site_name: billy kidding
+
+theme:
+    name: material
+    icon:
+        logo: fontawesome/solid/book-open
+    favicon: img/favicon-16x16.png
+#    palette:
+#        primary: light blue
+#        scheme: default
+#        accent: cyan
+    features:
+        - navigation.instant
+        - navigation.tabs
+    font:
+      text: Crimson Pro
+
+# Hide search
+plugins: []
+
+markdown_extensions:
+    - admonition
+    - meta
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
+    - Books: 'books.md'
+    - Inspiration: 'inspiration.md'
+    - Events: 'events.md'
+    - Educators: 'educators.md'
+    - Subscribe: 'subscribe.md'
+    - Contact: 'contact.md'
+
+extra:
+    social:
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/company/billy-kidding
+        name: Billy Kidding on LinkedIn
+      - icon: fontawesome/brands/facebook
+        link: https://facebook.com/billyiskidding
+        name: Billy Kidding on Facebook
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/billyiskidding
+        name: Billy Kidding on Twitter
+      - icon: fontawesome/brands/instagram
+        link: https://www.instagram.com/billykidding/
+        name: Billy Kidding on Instagram
+
+extra_css:
+    - css/extra.css
+
+copyright: Copyright &copy; 2023 Billy Kidding
