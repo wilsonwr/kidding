@@ -1,0 +1,18 @@
+:root {
+  --md-primary-fg-color:        #0000AA;
+  --md-accent-fg-color:        #0000AA;
+  --md-primary-fg-color--light: #0000AA;
+  --md-primary-fg-color--dark:  #0000AA;
+
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Finger Paint";
+  src: url('FingerPaint-Regular.woff');
+}
+
+.md-header span {
+  font-family: "Finger Paint";
+}
