@@ -4,7 +4,7 @@ theme:
     name: material
     icon:
         logo: fontawesome/solid/book-open
-    favicon: img/favicon-16x16.png
+    favicon: assets/images/favicon-16x16.png
 #    palette:
 #        primary: light blue
 #        scheme: default
@@ -14,6 +14,7 @@ theme:
         - navigation.tabs
     font:
       text: Crimson Pro
+    custom_dir: overrides
 
 # Hide search
 plugins: []
@@ -21,7 +22,9 @@ plugins: []
 markdown_extensions:
     - admonition
     - meta
+    - tables
     - attr_list
+    - md_in_html
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -29,12 +32,7 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - About: 'about.md'
-    - Books: 'books.md'
-    - Inspiration: 'inspiration.md'
-    - Events: 'events.md'
-    - Educators: 'educators.md'
     - Subscribe: 'subscribe.md'
-    - Contact: 'contact.md'
 
 extra:
     social:
@@ -52,6 +50,6 @@ extra:
         name: Billy Kidding on Instagram
 
 extra_css:
-    - css/extra.css
+    - assets/stylesheets/extra.css
 
 copyright: Copyright &copy; 2023 Billy Kidding
